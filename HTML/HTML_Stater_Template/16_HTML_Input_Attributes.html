@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Attributes</title>
+    <style >
+    	
+    	div{
+       background-color: darkcyan;
+        color: white;
+        padding: 10px;
+width: : 400px
+margin:5px;
+    	}
+    </style>
+</head>
+<body>
+
+    <!-- input attributes value-used to default value , readonly , size , rows , cols-->
+    <div>
+    	<h2>value attributes</h2>
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text"  value="pavan">
+
+        </form>
+
+
+    </div>
+<!---Readonly---------->
+
+       
+        <div>
+    	
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text"  value="pavan" readonly>
+
+        </form>
+
+           <!-------disabled---------------->
+    </div>
+        <div>
+    	
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text"  value="pavan" disabled>
+
+        </form>
+
+
+    </div>
+               <!-------size---------------->
+
+              <div>
+    	
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text"  size="10">
+
+        </form>
+
+
+    </div>
+              <div>
+    	
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text rows="5" column>
+
+        </form>
+
+
+    </div>
+    
+
+
+    <!-- HTML 5 Form Attributes required- using validation,
+    no-validate, autofocus - automatically foce input page, pattern-to add our own coustom pattern for any input filed , placeholder- io specified default values for input filed.this is alternate label filed ,disable-to make any filed disable -->
+<!---Attributes required------>
+              <div>
+    	
+        <form>
+        	 <label>UserName</label>
+        	 <input type="text" required>  
+        	 <input type="submit" value="submit">
+
+
+        </form>
+
+
+    </div>
+    <!--no- validate------>
+
+               <div>
+    	
+        <form novalidate>
+        	 <label>Your Email</label>
+        	 <input type="email" >  
+        	 <input type="submit" value="submit">
+
+
+        </form>
+
+
+    </div>
+    <!--autofocus-->
+                           <div>
+    	
+        <form >
+        	 <label>user name</label>
+        	 <input type="text" autofocus>  
+        	 <br>
+              <label>password</label>
+             <input type="text">
+        </form>
+
+
+    </div>
+    <!--pattern---->
+        <!--html5pattern---->
+
+                                <div>
+    	
+        <form >
+        	 <label>Twitter username</label>
+        	 <input type="text" pattern="">  
+        	 <input type="submit" value="submit">
+
+
+        </form>
+
+
+    </div>
+
+                                 <div>
+    	
+        <form >
+        	 <label>username</label>
+        	 <input type="text"  placeholder="entername">  
+        	
+
+
+        </form>
+
+
+    </div>
+
+</body>
+</html>
